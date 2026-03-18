@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="login.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kotta+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+        <title>Login</title>
+    </head>
+    <body>
+        <div id="loginPage">
+            <div class="loginCard form_card" id="login_card">
+                <h1>Welcome Back</h1>
+                <p class="subtitle">Let's get to work.</p>
+                <form id="loginForm">
+                    <div class="formSections">
+                        <label>Email</label>
+                        <input id="email" type="email" required>
+                    </div>
+                    <div class="formSections">
+                        <label>Password</label>
+                        <input id="password" type="password" required>
+                    </div>
+                    <button type="submit">Login</button>
+                </form>
+                <p class="authSwitch">
+                    New here? <a href="signup.html">Create an account</a>
+                </p>
+            </div>
+        </div>
+        <script type="module" src="/back/login.js"></script>
+    </body>
+</html>
